@@ -1,0 +1,65 @@
+.hero {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-heading {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.hero-heading h1 {
+    font-weight: 520;
+    font-size: 80px;
+    margin: 0px;
+}
+
+#creators-to {
+    background: linear-gradient(90deg, #d945f7, #f75990);
+    background-clip: text;
+    color: transparent;
+}
+
+.subtitle {
+    text-align: center;
+    color: #B5B4AA;
+    font-size: 20px;
+}
+
+h3 {
+    color: #B5B4AA;
+}
+
+.scrolling-image {
+    border-radius: 50px;
+    width: 1200px;
+    padding: 20px 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    gap: 80px;
+    animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.images {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}

@@ -1,0 +1,29 @@
+.intro{
+    margin-top:100px;
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+   align-items: center;
+    .heading-intro{
+        color:#DDFF00;
+        display:flex;
+        align-items: center;
+        gap:15px;
+        font-weight: 500;
+        p{
+            font-weight: 600;
+            font-size: 25px;
+        }
+    }
+    .intro-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            margin:0px;
+            font-family: Arial, sans-serif;
+            font-size: 40px;
+            color:white;
+        }
+    }
+}
