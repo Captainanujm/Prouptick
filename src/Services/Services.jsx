@@ -17,15 +17,27 @@ function Services(){
             <div className="Card-container">
                 <Card
   heading="Heading 2" 
-  image="../../src/assets/social-media.png"
+  image="../../src/assets/Black Modern Profile Picture Facebook Post Square.png"
   paragraph="This is a paragraph." 
   />
                 <Card
   heading="Heading 1" 
-  image="../../src/assets/Youtube 3D Model.png" 
+  image="../../src/assets/Black Modern Profile Picture Facebook Post Square-2.png" 
   paragraph="This is a paragraph." />
                 <Card
-  image="../../src/assets/best-premium-3d-icons-illustration-vector-images_1266756-891.avif"
+  image="../../src/assets/Black Modern Profile Picture Facebook Post Square-3.png"
+  paragraph="This is a paragraph."
+  heading="Heading for Type 3 Card"/>
+    <Card
+  image="../../src/assets/Black Modern Profile Picture Facebook Post Square-4.png"
+  paragraph="This is a paragraph."
+  heading="Heading for Type 3 Card"/>
+    <Card
+  image="../../src/assets/Black Modern Profile Picture Facebook Post Square-5.png"
+  paragraph="This is a paragraph."
+  heading="Heading for Type 3 Card"/>
+    <Card
+  image="../../src/assets/Black Modern Profile Picture Facebook Post Square-6.png"
   paragraph="This is a paragraph."
   heading="Heading for Type 3 Card"/>
             </div>

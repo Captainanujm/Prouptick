@@ -12,8 +12,8 @@ function App(){
       <Hero/>
       <Introducing/>
       <Services/>
-       <MapComponent/>
-       <Calendly/>
+       {/* <MapComponent/>
+       <Calendly/> */}
     </div>)
 }
 export default App;

@@ -1,10 +1,10 @@
 .Card{
-  padding: 20px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   width: 400px; 
   height: 400px;
-  margin: 20px auto;
+  margin: 0px auto;
   border: 1px solid #ddd;
   border-radius: 50px;
   box-sizing: border-box;

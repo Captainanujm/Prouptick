@@ -14,13 +14,13 @@ function Hero(){
 
     <div className="hero">
         <div className="hero-heading">
-           <h1> We Built, </h1>
-           <h1>Creators to <span id="creators-to">a Brand </span></h1>
+           <h1> We Empower Creators, </h1>
+           <h1>Transforming vision to <span id="creators-to">Brand success</span></h1>
            </div>
            <div className="subtitle">
-            <p>We are team of enthusiastic individuals who help Creators to grow by</p>
-            <p>unleashing the power of potential of their abilities.</p>
-           </div>
+            <p>We are a passionate team dedicated to helping creators thrive by unlocking the full potential of their talents.</p>
+            <p>Trusted by industry leaders, we’re here to elevate your journey and amplify your impact.</p>
+            </div>
         <h3>Already chosen by Leaders</h3>
         <div className="scrolling-image">
             <div className="image-container">
