@@ -9,7 +9,7 @@ function Hero(){
     return ( <motion.div ref={ref}
         initial={{opacity:0,scale:0.9,zIndex:0}}
         animate={inView?{opacity:1,scale:1,zIndex:1}:{}}
-        transition={{duration:0.8}}
+        transition={{duration:0.9}}
     >
 
     <div className="hero">
