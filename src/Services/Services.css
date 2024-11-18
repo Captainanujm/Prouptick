@@ -1,5 +1,5 @@
 .services{
-    margin-top:90px;
+    margin-top:120px;
     display: flex;
     flex-direction: column;
     gap:20px;
@@ -11,7 +11,7 @@
         align-items: center;
         font-family: Arial, sans-serif;
         font-size: 25px;
-        font-weight: 500;
+        font-weight: 400;
     }
     .service-body{
         display: flex;
@@ -64,7 +64,7 @@
     .sec-1-content:hover{
         cursor: pointer;
         transform: scale(1.02);
-        box-shadow: 0 0 10px rgba(255, 0, 150, 0.8), 
+        box-shadow: 0 0 10px rgba(181, 78, 37, 0.8), 
         0 0 20px rgba(255, 0, 150, 0.6), 
         0 0 40px rgba(255, 0, 150, 0.4);
         gap:15px;
