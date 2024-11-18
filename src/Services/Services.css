@@ -65,8 +65,8 @@
         cursor: pointer;
         transform: scale(1.02);
         box-shadow: 0 0 10px rgba(181, 78, 37, 0.8), 
-        0 0 20px rgba(255, 0, 150, 0.6), 
-        0 0 40px rgba(255, 0, 150, 0.4);
+        0 0 20px rgba(213, 68, 5, 0.6), 
+        0 0 40px rgba(205, 80, 39, 0.4);
         gap:15px;
     }
 }
