@@ -1,0 +1,30 @@
+.how-works-heading{
+   margin-top:70px;
+   padding:30px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+}
+.head{
+    display:flex;
+    gap:15px;
+    align-items: center;
+    color:#DDFF00;
+    font-size: 20px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color:whitesmoke;
+}
+.how-it-works-card{
+    margin-top:30px;
+    height:fit-content;
+    width:1300px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}

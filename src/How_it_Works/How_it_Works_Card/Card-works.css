@@ -1,0 +1,43 @@
+.Card-2{
+    border-radius: 50px;
+    height:350px;
+    width:400px;
+    background-color: #161616;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.card-content-how-it-works{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    h6{
+        font-size: 25px;
+      color: #a0a0a0; 
+    }
+    p{
+        color: #a0a0a0; 
+        font-size: 20px;
+      margin-bottom: 10px;
+    }
+}
+.normal-card{
+    border-radius: 50px;
+    height:300px;
+    width:400px;
+    background-color: #161616;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-out;
+}
+.Card-2:hover,.normal-card:hover{
+    transform: scale(1.07);
+    gap:42px;
+}
+
