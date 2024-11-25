@@ -63,3 +63,73 @@ h3 {
     height: 120px;
     border-radius: 50%;
 }
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .hero-heading h1 {
+        font-size: 50px; /* Adjust heading size */
+    }
+
+    .subtitle {
+        font-size: 18px; /* Adjust subtitle size */
+    }
+
+    .scrolling-image {
+        width: 800px; /* Reduce scrolling image width */
+    }
+
+    .images {
+        width: 100px; /* Reduce image size */
+        height: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-heading h1 {
+        font-size: 40px; /* Further reduce heading size */
+    }
+
+    .subtitle {
+        font-size: 16px; /* Further reduce subtitle size */
+    }
+
+    .scrolling-image {
+        width: 600px; /* Further reduce scrolling image width */
+    }
+
+    .image-container {
+        gap: 40px; /* Reduce gap between images */
+    }
+
+    .images {
+        width: 80px; /* Further reduce image size */
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        margin-top: 50px; /* Reduce top margin */
+    }
+
+    .hero-heading h1 {
+        font-size: 30px; /* Further reduce heading size */
+    }
+
+    .subtitle {
+        font-size: 14px; /* Further reduce subtitle size */
+    }
+
+    .scrolling-image {
+        width: 100%; /* Make scrolling image take full width */
+    }
+
+    .images {
+        width: 60px; /* Reduce image size for small screens */
+        height: 60px;
+    }
+
+    .image-container {
+        gap: 20px; /* Reduce gap between images */
+    }
+}
