@@ -1,0 +1,50 @@
+.comparison{
+    height:500px;
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    gap:5px;
+    padding:30px;
+    background-color: #2A2B2B;
+}
+.heading{
+    display:flex;
+    justify-content: space-between;
+}
+.features{
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+}
+.others-us{
+    width:190px;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-around;
+    font-weight: 700;
+    color:white;
+}
+.child{
+    background-color: #373636;
+    display:flex;
+    justify-content: space-between;
+    padding:5px 5px 5px 10px;
+}
+.features-descp{
+    font-size: 20px;
+   display:flex;
+   align-items: center;
+}
+.sign-parent{
+    padding:5px;
+    padding-right:15px;
+    width:150px;
+    display:flex;
+    justify-content: space-between;
+    img{
+        height:30px;
+        width:30px;
+    }
+}
+

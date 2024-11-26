@@ -76,7 +76,7 @@
   /* Active state styling */
   .faq-item.active {
     border-color: #007bff;
-    background: #C8824A;
+    background: #c2c9c5;
     opacity: 0.69;
   }
   .question-arrow{

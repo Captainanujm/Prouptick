@@ -8,6 +8,7 @@ import FAQSection from "./FAquestions/FAquestions.jsx";
 import MapComponent from "./MapComponent/Map.jsx";
 import Calendly from "./CalendlyEmbed/Calendly.jsx";
 import How_Works from "./How_it_Works/How_it_Works.jsx";
+import Comparison from "./Comparison/Comparison.jsx";
 function App(){
     return (<div className="App">
       <Nav/>
@@ -15,9 +16,10 @@ function App(){
       <Introducing/>
       <Services/>
       <How_Works/>
-      {/* <MapComponent/>
+      <MapComponent/>
       <Calendly/>
-      <FAQSection/> */}
+      <FAQSection/>
+      <Comparison/>
     </div>)
 }
 export default App;
