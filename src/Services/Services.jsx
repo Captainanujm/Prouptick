@@ -18,28 +18,37 @@ function Services(){
                 <Card
   heading="Social media Management" 
   image="../../src/assets/Black Modern Profile Picture Facebook Post Square.png"
-  paragraph="This is a paragraph." 
-  />
+  paragraph="We go beyond managing accounts—we transform them into dynamic platforms that captivate audiences and build vibrant, engaged communities."
+  isList={false} />
                 <Card
-  heading="Heading 1" 
+  heading="Video Editing" 
   image="../../src/assets/Black Modern Profile Picture Facebook Post Square-2.png" 
-  paragraph="This is a paragraph." />
+  paragraph="We bring your vision to life by turning raw footage into polished, captivating videos that leave a lasting impression."
+isList={false} />
                 <Card
   image="../../src/assets/Black Modern Profile Picture Facebook Post Square-3.png"
-  paragraph="This is a paragraph."
-  heading="Heading for Type 3 Card"/>
+  paragraph="We craft designs that leave a lasting impression, ensuring your brand stands out across all platforms:
+
+Social Media: Eye-catching visuals that drive engagement.
+Offline Activations: Memorable designs for impactful experiences.
+YouTube: Custom graphics that enhance your channel’s identity.
+Website & Landing Pages: Stunning layouts that captivate and convert."
+  heading="Graphic Designing"
+  isList={true}/>
     <Card
   image="../../src/assets/Black Modern Profile Picture Facebook Post Square-4.png"
-  paragraph="This is a paragraph."
-  heading="Heading for Type 3 Card"/>
+  paragraph="Comprehensive support covering strategy, post-production, operations, and analytics—designed to fuel your channel’s growth and ensure lasting success."
+  heading="360° YouTube Management"
+  isList={false}/>
     <Card
   image="../../src/assets/Black Modern Profile Picture Facebook Post Square-5.png"
-  paragraph="This is a paragraph."
-  heading="Heading for Type 3 Card"/>
-    <Card
+  paragraph="PROUPTICK  Media is your creative powerhouse, specializing in video production, content creation, design, and animation."
+  heading="Media Productions"
+  isList={false}/>
+    {/* <Card
   image="../../src/assets/Black Modern Profile Picture Facebook Post Square-6.png"
   paragraph="This is a paragraph."
-  heading="Heading for Type 3 Card"/>
+  heading="Heading for Type 3 Card"/> */}
             </div>
         </div>
         <div className="chhote-card">

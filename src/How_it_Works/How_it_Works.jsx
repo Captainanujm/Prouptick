@@ -14,12 +14,9 @@ function How_Works(){
     <p>delivered at your doorstep.</p>
 </div>
 <div className="how-it-works-card">
-<Card_works Cardkey="1" heading="Tell us your vision" content="Git Bash may behave differently than Command Prompt or PowerShell. 
-Make sure you’re using the terminal appropriate for your environment."/>
-<Card_works Cardkey="2" heading="Tell us your vision" content="Git Bash may behave differently than Command Prompt or PowerShell. 
-Make sure you’re using the terminal appropriate for your environment."/>
-<Card_works Cardkey="3" heading="Tell us your vision" content="Git Bash may behave differently than Command Prompt or PowerShell. 
-Make sure you’re using the terminal appropriate for your environment."/>
+<Card_works Cardkey="1" image ="../../src/assets/logo-2.png" heading="Tell us your vision" content="Choose a plan and share your project details with us: we’re here to listen."/>
+<Card_works   image ="../../src/assets/logo-2.png" Cardkey="2" heading="Receive the magic" content="Sit back and relax: our expert Team will turn your vision into reality"/>
+<Card_works  image ="../../src/assets/logo-2.png" Cardkey="3" heading="Get ongoing support" content="Your subscription ensures you have continuous access to our team."/>
 </div>
         </div>
 )

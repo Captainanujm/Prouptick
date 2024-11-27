@@ -1,30 +1,85 @@
-.how-works-heading{
-   margin-top:70px;
-   padding:30px;
-    display:flex;
+.how-works-heading {
+    margin-top: 70px;
+    padding: 30px;
+    display: flex;
     flex-direction: column;
-    gap:30px;
+    gap: 30px;
     align-items: center;
+    text-align: center; /* Center-align for better responsiveness */
 }
-.head{
-    display:flex;
-    gap:15px;
+
+.head {
+    display: flex;
+    gap: 15px;
     align-items: center;
-    color:#DDFF00;
-    font-size: 20px;
+    color: #DDFF00;
+    font-size: 1.25rem; /* Use scalable font sizes */
 }
-.title{
+
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 50px;
-    color:whitesmoke;
+    font-size: 3rem; 
+    color: whitesmoke;
+    text-align: center;
 }
-.how-it-works-card{
-    margin-top:30px;
-    height:fit-content;
-    width:1300px;
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
+
+.how-it-works-card {
+    margin-top: 30px;
+    width: 90%; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px; 
+}
+@media (max-width: 1024px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .head {
+        font-size: 1rem;
+    }
+
+    .how-it-works-card {
+        gap: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+    .head{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 1.90 rem;
+    }
+    .how-it-works-card {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+    }
+}
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.75rem; 
+    }
+
+    .how-works-heading {
+        margin-top: 20px; 
+        padding: 15px; 
+        gap: 20px;
+    }
+
+    .how-it-works-card {
+        width: 100%; 
+        padding: 10px;
+        gap: 15px; 
+    }
+
+    .head {
+        font-size: 0.85rem;
+    }
 }
